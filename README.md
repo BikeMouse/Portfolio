@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is the ReadMe file to my Portfolio repo:
+Welcome to my Portfolio repo:
 
 It does contain all the files to my portfolio, which you can look at https://judithkraziewicz.netlify.app/.
 
