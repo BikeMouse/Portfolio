@@ -45,7 +45,7 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="./images/profilePic.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="./images/editedProfile.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>About me</h2>
@@ -121,25 +121,20 @@
 							<p>To get into contact, just leave me message in the form below or follow me on social media :</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" placeholder="Your Name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" placeholder="Your Email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5" placeholder="Your Message to me"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
+									<form name="contact" method="POST" data-netlify="true">
+										<p>
+										  <label>Your Name: <input type="text" name="name" /></label>
+										</p>
+										<p>
+										  <label>Your Email: <input type="email" name="email" /></label>
+										</p>
+										<p>
+										  <label>Message: <textarea name="message"></textarea></label>
+										</p>
+										<p>
+										  <button type="submit">Send</button>
+										</p>
+									  </form>
 								</section>
 								<section>
 									<ul class="contact">
