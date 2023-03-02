@@ -1,0 +1,31 @@
+body{
+    background-color: #fefae0;
+}
+nav{
+    background-color: #606c38;
+}
+.badge{
+    background-color: #283618;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+}
+#about a{
+ text-decoration: none;
+ color: black;
+}
+#open a{
+    text-decoration: none;
+    color: black;
+}
+#joining a{
+    text-decoration: none;
+    color: black;
+}
+#projects a{
+    text-decoration: none;
+    color: black;
+}

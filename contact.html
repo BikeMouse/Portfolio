@@ -30,39 +30,40 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="joining.html">Joining Your Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="open.html">Open To Clients</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
           </ul>
         </nav>
       </header>
-      <div class="container text-center mb-5 mt-0 position-absolute bottom-25 end-0">
+      <div class="container text-center position-absolute bottom-25 end-0">
         <div class="row">
           <div class="col-6">
             <div class="card">
-                <div class="ms-3 mt-3">
+                <div class="col-6 ms-3 mt-3">
                     <img src="./images/editedNewProfile.jpeg" class="img-fluid rounded-start" alt="profile">
                 </div>
-                <h5 class="card-title mt-3">About Judith Kraziewicz</h5>
-                <div class="card-body">
-                    <p>Hi, I'm Judith, a full stack engineer located in Edinburgh, Scotland. As far back as I can remember, I have always been surrounded by tech-savvy people in my social environment; be it
-                    programmers, graphic designers or other IT support. Naturally, because of their influence, I too am
-                    tech-savvy. In my previous business administration roles I was the go-to person when colleagues needed
-                    help understanding their applications.</p>
-                    <p>I presently work in the hospitality sector with a high-tech delivery service that has implemented a
-                    trackable just-in-time methodology.
-                    The experience working with all the apps that I have made led me to looking for more creative
-                    opportunities to build and develop my own products as a part of a team.</p>
+                <h5 class="card-title mt-3">Contacting Judith Kraziewicz</h5>
+                <div class="card-body mt-3 ms-4">
+                      <form name="contact" method="POST" data-netlify="true">
+                        <p><label>Your Name:</label><br><input type="text" name="name" /></p>
+                        <p><label>Your Email:</label><br><input type="email" name="email" /></p>
+                        <p><label>Message:</label><br><textarea name="message"></textarea></p>
+                        <p><button class="btn btn-primary" type="submit">Send</button></p>
+                      </form>
+                      <h5 class="card-text">Social Media</h5>
+                        <a href="https://twitter.com/RogandaEve"><span><i class="fa-brands fa-twitter"></i></span></a>
+                        <a href="https://github.com/BikeMouse"><span><i class="fa-brands fa-github"></i></span></a>
+                        <a href="https://www.linkedin.com/in/judith-kraziewicz/"><span><i class="fa-brands fa-linkedin"></i></span></a>   
                 </div>
               </div>
           </div>
         </div>
       </div>
 </body>
-
 </html>
